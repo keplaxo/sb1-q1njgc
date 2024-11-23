@@ -1,0 +1,15 @@
+export const GAME_HEIGHT = 400;
+export const GAME_WIDTH = 600;
+export const BIKE_SIZE = 40;
+export const OBSTACLE_WIDTH = 30;
+export const OBSTACLE_GAP = 200;
+export const GRAVITY = 0.8;
+export const JUMP_FORCE = -1.5; // Increased jump force
+export const MAX_JUMP_VELOCITY = -20; // Increased max jump velocity
+export const MAX_FALL_VELOCITY = 15;
+export const INITIAL_VELOCITY = 0;
+export const INITIAL_BIKE_POS = { x: 50, y: GAME_HEIGHT / 2 };
+export const COLLISION_COOLDOWN = 1500; // Increased cooldown time
+export const INITIAL_OBSTACLE_SPEED = 5;
+export const LEVEL_UP_INTERVAL = 10000;
+export const INVINCIBLE_DURATION = 15000;
